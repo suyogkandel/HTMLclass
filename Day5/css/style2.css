@@ -1,0 +1,43 @@
+body{
+    font-family:sans-serif;
+    background-color:blueviolet
+}
+.login-form{
+    background-color: white;
+    width:300px;
+    margin:auto;
+    color: black;
+    text-align: center;
+    padding:20px;
+    border-radius:0px;
+}
+.login-form a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.input-group{
+    text-align: left;
+}
+.input-group input{
+    width:90%;
+    padding:10px;
+    border-radius: 0px;
+}
+.input-group button{
+    padding:10px 20px;
+    border-radius: 0px;
+    border:none;
+    cursor:pointer;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    width:98%;
+}
+.input-group button:hover{
+    background-color: blue;
+}
+.input-group input:focus{
+    outline:none;
+}
+

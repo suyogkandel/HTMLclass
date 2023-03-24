@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+
+
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="h-[600px] w-full object-cover" src="http://cmsa.org.np/images/banners/nhh_1669901817.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="h-[600px] w-full object-cover" src="http://cmsa.org.np/images/banners/IMG_7164_1669900974.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+      <img src="https://hamroelectronics.com.np/images/slide/ads1.gif" alt="">
+
+
+
+    <div class="my-20 mx-20">
+        <div class="border-l-4 border-blue-600 p-2">
+            <p class="text-4xl">Gallery</p>
+            <p>View our gallery photos at a glance</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-10 p-2">
+            <a data-fancybox="gallery" data-src="https://cmsa.org.np/images/gallery/IMG_7168_1669901363.JPG" data-caption="Optional caption">
+            <img class="w-full" src="https://cmsa.org.np/images/gallery/IMG_7168_1669901363.JPG" />
+            </a>
+
+            <a data-fancybox="gallery" data-src="https://cmsa.org.np/images/gallery/IMG_7193_1669901272.JPG">
+            <img class="w-full" src="https://cmsa.org.np/images/gallery/IMG_7193_1669901272.JPG" />
+            </a>
+
+            <a data-fancybox="gallery" data-src="https://cmsa.org.np/images/gallery/IMG_7166_1669901220.JPG">
+            <img class="w-full" src="https://cmsa.org.np/images/gallery/IMG_7166_1669901220.JPG" />
+            </a>
+        </div>
+    </div>
+
+
+    <iframe width="1275" height="717" src="https://www.youtube.com/embed/EOg-zJ5J5XA" title="Teenpatey - Dekhera Timi Lai | Official Lyrical Video | Sujan Chapagain & Bidhya Tiwari" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <div class="pt-4">
+        <p class="text-center text-blue-500">Helping Today</p>
+        <p class="text-center text-5xl">How we help people</p>
+
+        <div class="grid grid-cols-3 gap-8 mt-8 px-24">
+            <div class="text-center bg-gray-200 p-6 rounded-lg shadow-lg cursor-pointer">
+                <img class="bg-blue-600 p-2 rounded-full mx-auto" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+                <p class="text-2xl">Healthy Food & Water</p>
+                <p>Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+            </div>
+
+            <div class="text-center bg-gray-200 p-6 rounded-lg shadow-lg cursor-pointer">
+                <img class="bg-blue-600 p-2 rounded-full mx-auto" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+                <p class="text-2xl">Healthy Food & Water</p>
+                <p>Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+            </div>
+
+            <div class="text-center bg-gray-200 p-6 rounded-lg shadow-lg cursor-pointer">
+                <img class="bg-blue-600 p-2 rounded-full mx-auto" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+                <p class="text-2xl">Healthy Food & Water</p>
+                <p>Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          loop: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+</body>
+</html>

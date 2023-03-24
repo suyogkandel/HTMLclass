@@ -1,0 +1,54 @@
+body{
+    font-family:sans-serif;
+    margin:0;
+}
+
+.navbar, .mob-bar{
+    background-color: blue;
+}
+
+.menu, .mob-menu{
+    margin:0;
+    list-style-type: none;
+    padding:10px;
+    text-align: right;
+}
+
+.menu li{
+    display:inline;
+    margin:10px;
+}
+
+.menu a, .mob-menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.mob-bar{
+    display:none;
+}
+
+.mob-menu{
+    display:none;
+    text-align:left;
+}
+
+.mob-bar span{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.mob-menu li{
+    margin:10px;
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+
+    .mob-bar{
+        display:block;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <button onclick="showHide()">Show/Hide</button>
+    <button onclick="showPopup()">Login</button>
+    <h1 id="myText">This is a text</h1>
+    <div class="pop-up" id="pop-up">
+        <div class="inner-div">
+            <h2>Login</h2>
+            <form action="" class="myform">
+                <input type="text" placeholder="Enter Username">
+                <input type="password" placeholder="Enter Password">
+                <button type="submit">Login</button>
+            </form>
+            <span class="close" onclick="closePopup()">X</span>
+        </div>
+    </div>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <h1>This is a heading</h1>
+    <script>
+        function showHide(){
+            if(document.getElementById('myText').style.display != 'none')
+            {
+                document.getElementById('myText').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('myText').style.display = 'block';
+            }
+        }
+
+        function closePopup()
+        {
+            document.getElementById('pop-up').style.display = 'none';
+        }
+
+        function showPopup()
+        {
+            document.getElementById('pop-up').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

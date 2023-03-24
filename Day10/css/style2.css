@@ -1,0 +1,33 @@
+body{
+    font-family:sans-serif;
+}
+.mytable{
+    background-color: aqua;
+    /*border-collapse:collapse;*/
+    margin:auto;
+    border: 5px solid grey;
+}
+.mytable td{
+    text-align: center;
+    padding:10px;
+}
+
+.mytable2{
+    border-collapse: collapse;
+    border:5px double black;
+    width:505px;
+    margin:auto;
+    margin-top: 50px;
+}
+.mytable2 th, td{
+    border:2px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+.purple td:nth-child(3){
+    background-color: purple;
+}
+.yellow td:nth-child(4){
+    background-color: yellow;
+}

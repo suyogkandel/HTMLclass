@@ -1,0 +1,77 @@
+body{
+    font-family:sans-serif;
+    margin:0;
+}
+.nav-bar{
+    display:flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin:0;
+}
+.nav-bar div{
+    flex:1;
+}
+.apply-now{
+    text-align: right;
+    margin:auto;
+}
+.apply-now .btn{
+    text-decoration: none;
+    padding:15px;
+    color: white;
+    background-color: orange;
+    border:none;
+    cursor:pointer;
+}
+.apply-now .btn:hover{
+    color:orange;
+    background-color: white;
+    border:1px solid orange;
+}
+.email > p, .call > p{
+    color:grey;
+}
+
+.thakuri li{
+    list-style-type:none;
+    display:inline;
+}
+.thakuri a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    margin:2px;
+}
+.thakuri input{
+    font-size:20px;
+    height:40px;
+    width:250px;
+    border-radius:20px;
+    color:grey;
+    background-color:  rgb(68, 56, 78);
+    margin-left:330px;
+}
+
+.menu-bar{
+    padding-left:10%;
+    padding-right:10%;
+}
+.menu{
+    /* padding:1px; */
+    background-color: rgb(68, 56, 78);
+}
+.myflex{
+    display:flex;
+}
+.flex1{
+    background-color: orange;
+}
+.flex2{
+    background-color: blue;
+}
+.flex3{
+    background-color: orange;
+}
+.flex4{
+    background-color: blue;
+}

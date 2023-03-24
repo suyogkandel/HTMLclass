@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(83, 73, 73);
+    font-family: sans-serif;
+}
+.outer-div{
+    width: 33.33%;
+    float: left;
+}
+.inner-div{
+    background-color: rgb(187, 15, 15);
+    margin: 10px;
+    text-align:center;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+}
+.inner-div h4, .inner-div p{
+    color: rgb(156, 141, 141);
+}
+.mybtn{
+    margin: 20px;
+}
+.mybtn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

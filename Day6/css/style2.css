@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    background-color:whitesmoke;
+}
+.outer-div{
+    width: 50%;
+    float:left;
+}
+.left-div{
+    text-align: left;
+    margin: 40% 20% 0% 20%;
+}
+.left-div h1{
+    color:blue;
+}
+.right-div{
+    text-align: center;
+    background-color: white;
+    padding:15px;
+    margin: 10% 15% 0% 20%;
+    border-radius: 5px;
+}
+.input-group input{
+    width:90%;
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+    border-style: outset;
+    cursor:pointer;
+}
+.input-group button{
+    width: 95%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+    padding: 10px;
+    margin: 5px 0px 15px 0px;
+}
+.input-group button:hover{
+    background-color: rgb(69, 69, 170);
+}
+.input-group input:focus{
+    outline:none;
+}
+.group2 a{
+    text-decoration: none;
+}
+.group2 hr{
+    width:95%;
+    margin: 15px;
+}
+.group2 button{
+    width:60%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin:10px 0px 20px 0px;
+}
+.group2 button:hover{
+    background-color:rgb(93, 228, 93);
+}
+.group2 input:focus{
+    outline:none;
+}
+.outer-text{
+    margin: 10px 15% 0% 20%;
+    text-align:center;
+}
+@media screen and (max-width:768px){
+    .outer-div{
+        width:100%;
+    }
+}
+@media screen and (max-width:480px){
+    .outer-div{
+        width:100%;
+    }
+}

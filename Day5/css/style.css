@@ -1,0 +1,49 @@
+body{
+    font-family:sans-serif;
+}
+.menu{
+    background-color: blue;
+    padding: 10px;
+    text-align: right;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.login-form{
+    background-color: blue;
+    width: 500px;
+    margin:auto;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input-group{
+    margin:15px;
+}   
+.input-group input{
+    width:90%;
+    padding:10px;
+    border-radius: 6px;
+    border: none;
+}
+.input-group button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    width: 95%;
+}
+.input-group button:hover{
+    background-color: red;
+}
+.input-group input:focus{
+    outline: none;
+}

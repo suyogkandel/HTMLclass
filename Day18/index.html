@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgressBar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <input type="number" id="percent" placeholder="Enter Percentage">
+    <p class="progress-bar"><span class="progress" id="progress">50%</span></p>
+    <button onclick="myProgress()">Apply</button>
+
+    <script>
+        var start=5;
+        function myProgress()
+        {
+            var percent = document.getElementById('percent').value;
+            if(percent > 5 && percent < 100)
+            {
+                document.getElementById('progress').innerHTML=start+'%';
+                document.getElementById('progress').style.width=start+'%';
+            }
+            else{
+                alert('Value must be between 5 and 100');
+        }
+        var x=setTimeout(myProgress, 100);
+        if(start>=percent)
+        {
+            clearTimeout(x);
+        }
+        else{
+            start=start+1;
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+}
+.heading{
+    text-align: center;
+   
+}
+.heading img{
+    height:5%;
+    width:15%;
+    
+}
+.date-time{
+    display:flex;
+    justify-content: space-between;
+}
+.myflex{
+    background-color: blue;
+    /* color: black; */
+    /* text-align: right; */
+    list-style-type: none;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.myflex a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    display:inline;
+    /* text-align: center; */
+}
+.image img{
+    width:30px;
+    text-align: center;
+    margin:-10px;
+}
+.myflex a:hover{
+    background-color:red;
+    box-shadow: 1px 1px 10px rgb(234, 41, 41);
+    transform:scale(0.02);
+}
+.midimg{
+    text-align: center;
+}
+.midimg img{
+    background:scroll;
+    /* margin-inline: 10px; */
+    width:90%;
+    height:80%;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    color:rgb(33, 33, 125);
+    text-align: center;
+    display:inline;
+}
+.mygrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:20px;
+    column-gap: 20px;
+    padding:50px 80px;
+}
+.mygrid div{
+    background-color: bisque;
+    padding:10px;
+    border-radius:10px;
+    transition:0.5s;
+}
+.mygrid div:hover{
+    box-shadow: 1px 1px 1px whitesmoke;
+    cursor:crosshair;
+    transform:scale(1.3);
+}
+.mygrid img{
+    width:100%;
+}

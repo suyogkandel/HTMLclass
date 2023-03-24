@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    margin:0;
+    font-size: 20px;
+}
+
+.menu{
+    background-color: blue;
+    padding:25px;
+    text-align:right;
+    margin:0;
+    position:sticky;
+    top:0;
+    z-index:20;
+}
+.menu li{
+    display:inline;
+    margin:15px;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner img{
+    width:100%;
+    margin-bottom: -5px;
+}
+
+.notice{
+    display:flex;
+    background-color: green;
+    color:white;
+}
+.notice .left{
+    padding:10px;
+}
+.red{
+    color:red;
+}
+.notice-text{
+    background-color: aliceblue;
+    color: black;
+    padding:10px;
+    font-weight: bold;
+    flex:1;
+    z-index:10;
+}
+
+.course-section{
+    background-color: blueviolet;
+    padding: 50px 150px;
+    text-align: center;
+    color:white;
+}
+.courses{
+    display:flex;
+}
+.courses div{
+    background-color: rgb(80, 26, 131);
+    margin:10px;
+    padding:40px;
+    border-radius:10px;
+}
+.courses p{
+    text-align: justify;
+}
+
+.about-section{
+    display:flex;
+    padding:50px 150px;
+}
+.about-img, .about-content{
+    margin:20px;
+}
+.about-content p{
+    text-align: justify;
+}
+.view-button{
+    margin:10px 0px;
+}
+.view-button a{
+    text-decoration:none;
+    background-color: yellow;
+    padding: 15px 40px;
+}

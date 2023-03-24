@@ -1,0 +1,167 @@
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    margin:0;
+}
+.topbar{
+    background-color: blue;
+    color: white;
+    padding:10px 10%;
+    font-weight: bold;
+    font-size:larger;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar{
+    background-color: whitesmoke;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:50px;
+    padding:15px 50px;
+    position:sticky;
+    top:0;
+    z-index:20;
+}
+.logo-image img{
+    width:35%;
+}
+.menu{
+    margin: auto;
+}
+.menu li{
+    list-style-type: none;
+    display:inline;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+}
+.donation-button{
+    margin:auto;
+}
+.donation-button a{
+    text-decoration: none;
+    padding:10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about-us{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    z-index:10;
+    margin: auto;
+}
+.nokia-image{
+    padding:30px 30px 30px 50px;
+}
+.about-content{
+    margin-right: 30px;
+}
+.about-content > h3{
+    font-size: xx-large;
+    color: blue;
+    font-weight: 400;
+}
+.about-content > h2{
+    margin-top: -0px;
+    font-size: xxx-large;
+    font-weight: 300;
+}
+.about-content > p{
+    text-align:justify;
+    font-size: xx-large;
+}
+.view-button{
+    margin-top: 60px;
+}
+.view-button a{
+    text-decoration: none;
+    padding:20px;
+    background-color: orangered;
+    color: white;
+    font-size: large;
+}
+
+.gallery{
+    padding-left: 50px;
+}
+.gallery > h2{
+    font-size: xx-large;
+}
+.gallery > h4{
+    font-size: larger;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 25px;
+    padding: 30px 50px;
+}
+.grid img{
+    width:100%;
+}
+
+.view-all{
+    text-align: center;
+}
+.view-all a{
+    text-decoration: none;
+    padding:15px 60px;
+    margin:50px;
+    background-color: blue;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.help{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    padding: 50px;
+}
+.helping-today > h4{
+    color:blue;
+    font-size: x-large;
+}
+.helping-today > h2{
+    font-size: xxx-large;
+}
+.helping-today > p{
+    color:grey;
+    font-size: larger;
+    text-align: justify;
+}
+.helping-today a{
+    text-decoration: none;
+    border-radius: 5px;
+    color: orange;
+    padding: 20px 30px;
+    border: 5px;
+    border-color: orange;
+    background-color: whitesmoke;
+}
+.helping-today a :hover{
+    transition:0.2s;
+    background-color: orangered;
+}
+
+.h2-h4 > h4{
+    color: blue;
+    font-size: x-large;
+    text-align: center;
+}
+.h2-h4 > h2{
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.three-fr{
+    display:;
+    padding: 50px;
+}

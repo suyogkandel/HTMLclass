@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <form action="" onsubmit="return validate()">
+        <input type="text" id="usernanme" placeholder="Enter Username">
+        <input type="password" id="password" placeholder="Enter Password">
+        <input type="submit" value="Login">
+    </form>
+    <script>
+        function validate()
+        {
+            var name=document.getElementById('username').value;
+            var pass=document.getElementById('password').value;
+
+            //both fields are required
+            if(uname=='' || pass=='')
+            {
+                alert('Both fields are required');
+                return false;
+            }
+
+            //at least 5 character
+            if(uname.length < 5 || pass.length < 5)
+            {
+                alert('Both fields must be at least 5 character long');
+                return false;
+            }
+            
+            //both cannot be same
+            if(uname == pass)
+            {
+                alert('Both cannot be same');
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

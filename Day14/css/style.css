@@ -1,0 +1,64 @@
+body{
+    font-family:sans-serif;
+    background-color: antiquewhite;
+    margin:0;
+}
+.menu{
+    background-color: blue;
+    padding:10px;
+    text-align: right;
+    margin:0;
+}
+.menu li{
+    display:inline;
+    padding: 10px;
+    position:relative;
+}
+.menu li:hover{
+    background-color: red;
+}
+.menu li:hover .dropdown{
+    display:block;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.dropdown{
+    position:absolute;
+    left:0;
+    background-color: aquamarine;
+    text-align: center;
+    margin:0;
+    padding:0;
+    width:100px;
+    display:none;
+    margin-top:5px;
+    z-index: 100;
+}
+.dropdown li{
+    display: block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:50px;
+    padding:50px 150px;
+}
+.card{
+    background-color: aliceblue;
+    padding: 10px;
+    position: relative;
+}
+.card img{
+    width:100%;
+}
+.discount{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius:10px;
+    position:absolute;
+    top:4px;
+    right:5px;
+}

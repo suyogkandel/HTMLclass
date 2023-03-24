@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+.outer-div{
+    width:33.33%;
+    float:left;
+}
+.inner-div{
+    background-color: white;
+    margin:10px;
+    text-align:center;
+    padding:20px 0px 20px 0px;
+    border-radius:10px;
+}
+.inner-div h2{
+    color:aqua;
+}
+.mybtn{
+    margin:20px;
+}
+.mybtn a{
+    text-decoration:none;
+    background-color: aqua;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+}

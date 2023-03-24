@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <nav class="mob-bar">
+        <span class="fa fa-bars" onclick="showHideMenu()"></span>
+        <ul class="mob-menu" id="mobmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <iframe src="https://www.suyogkandel.com.np" frameborder="0" width="500px" height="500px"></iframe>
+
+    <script>
+        function showHideMenu()
+        {
+            var menu=document.getElementById('mobmenu');
+            if(menu.style.display != 'block')
+            {
+                menu.style.display='block';
+            }
+
+            else
+            {
+                menu.style.display='none';
+            }
+        }
+    </script>
+</body>
+</html>

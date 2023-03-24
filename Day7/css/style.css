@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+.team{
+    text-align: center;
+}
+.outer-div{
+    width: 33.33%;
+    float: left;
+}
+.inner-div{
+    background-color: white;
+    margin:10px;
+    padding: 10px;
+}
+.image{
+    text-align: center;
+    border-radius: 10px;
+}
+.image img{
+    border-radius: 50%;
+}
+@media screen and (max-width:768px){
+    .outer-div{
+        width:100%;
+    }
+}
+@media screen and (max-width:480px){
+    .outer-div{
+        width:100%;
+    }
+}

@@ -1,0 +1,6 @@
+body{
+    font-family: sans-serif;
+}
+.mydiv > p{
+    background-color: blue;
+}
